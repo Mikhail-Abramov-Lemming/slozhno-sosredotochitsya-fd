@@ -2,3 +2,10 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --highlighted-dark: #FF0070;
+  --font-title-dark: #DB00FF;
+  --font-highlighted-dark: #000028;
+  --font-dark: #F1B2CE;
+}

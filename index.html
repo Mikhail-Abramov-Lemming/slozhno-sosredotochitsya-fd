@@ -4,17 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./fonts/fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/light.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/dark.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/preloader.css" />
+    <link rel="stylesheet" href="./styles/error.css" />
+    <link href="/dist/output.css" rel="stylesheet" />
     <title>Сложно сосредоточиться</title>
     <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
     <header class="header decorated-zone">
+      <div class="pseudo-end"></div>
+      <div class="header__light">
+        <div class="pseudo"></div>
+      </div>  
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
-              class="header__theme-menu-button header__theme-menu-button_type_light"
-            >
+              class="header__theme-menu-button header__theme-menu-button_type_light">
               День
             </button>
           </li>
@@ -35,6 +48,189 @@
           </li>
         </ul>
       </nav>
+      <h1 class="header__title">no focus</h1>
+      <h2 class="h2-title title-decor">
+        Что делать, когда не можешь делать ничего<br>Или почему нам так сложно
+        сконцентрироваться, особенно когда очень надо
+      </h2>
+      <div class="pseudo-start pseudo-start__header-location"></div> 
     </header>
+    <main class="content">
+      <section class="main-section">
+        <div class="content-title">
+          Почему сосредоточиться так сложно
+        </div>
+        <p class="card">
+          <span class="card__title  title-decor">
+            Многозадачность
+          </span>  
+          <span class="description">
+            Особенно сложно сосредоточиться, когда задач много и все они — важные. 
+            Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? 
+            А дело в том, что её просто не существует. Исследователи
+            <a class="active-link" href="#">выяснили</a>, что мозгу тяжело концентрироваться даже на двух делах одновременно. 
+            А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин — «гормоны стресса». 
+            Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
+          </span>
+        </p>
+        <p class="card">
+          <span class="card__title  title-decor">
+            Дофамин  
+          </span>
+          <span class="description">
+            С гормонами стресса всё понятно, но дальше — ещё интереснее. 
+            В нашей невозможности сосредоточиться замешана и полная противоположность стрессу — дофамин. 
+            Это вещество участвует в системе вознаграждения мозга. 
+            Причём тут он? Мы часто отвлекаемся от важной задачи на что-то более «приятное» для мозгов. 
+            Например, смотрим лайки в соцсетях. В это время и выделяется дофамин — и мы чувствуем удовольствие. 
+            Получается замкнутый круг: чем больше отвлекаешься, тем больше удовольствия получаешь.
+          </span>
+        </p>
+      </section>
+      <section class="section-next">
+        <div class="content-title">
+          Что снижает концентрацию внимания?
+        </div>  
+        <p class="card">
+          <span class="card__title  title-decor">
+            Многозадачность 
+          </span>
+          <span class="description">
+            Как концентрация может снижаться из-за… концентрации? 
+            Любая стрессовая ситуация (и резко меняющийся мир в целом) заставляет наш мозг постоянно «сканировать» окружающую среду на предмет опасности. 
+            Например, читать новости вместо работы. Но быть собранными всё время — невозможно. Концентрация — мышца, 
+            и она может не выдержать, если не давать ей отдохнуть.
+          </span>
+        </p>
+        <p class="card">
+          <span class="card__title  title-decor">
+            Еда  
+          </span>
+          <span class="description">
+            «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно доставляют в мозг энергию и помогают ему лучше работать. 
+            Но уходит эта энергия также быстро, как и приходит. 
+            А мы в результате попадаем на «углеводные качели»: как только действие «быстрых углеводов» заканчивается, 
+            мы чувствуем усталость и сонливость. И хотим ещё больше быстрых углеводов.
+          </span>
+        </p>
+        <p class="card">
+          <span class="card__title  title-decor">
+            Гаджеты  
+          </span>
+          <span class="description">
+            Да-да, это та самая ситуация, когда на экране ноутбука — код, 
+            в наушниках — подкаст, а на компьютере фоном — ещё и видео с забавными утятами. 
+            В результате мозг пытается переключиться с одной задачи на другую — и просто не может. 
+            А чтобы вернуться к состоянию полной концентрации, человеку в среднем нужно 20 минут. 
+            Вот и получается, что чем больше времени мы проводим в гаджетах, тем больше времени затем нужно, чтобы вернуться к работе.
+          </span>
+        </p>
+      </section>
+      <section class="section-next-end">  
+          <div class="content-title">
+            Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)
+          </div> 
+          <div class="next-end-title title-decor">
+            5 простых (на самом деле не очень) советов
+          </div>
+        <p class="card">   
+          <span class="title-or-description title-decor">
+            Представьте небо и облака
+          </span>
+          <span class="description">
+            Или листья в ручье. Тут дело в лёгкой медитации, которая помогает успокоиться. 
+            Ведь часто именно тревожные мысли о сложных задачах как раз и мешают эти сложные задачи делать. 
+            В такие моменты можно закрыть глаза и представить, что чистое небо — это вы, а облака — тревожные мысли. 
+            И сколько бы их ни было — ясное небо всегда будет где-то там, за тучами, и никуда не денется. 
+            Это упражнение поможет вернуться в настоящий момент, а не волноваться о потенциальных проблемах из будущего.
+          </span>
+        </p>
+        <p class="card">
+          <span class="title-or-description title-decor">
+            Включите музыку
+          </span>
+          <span class="description">
+            Но не любую, и не любимую. Любимая может быть связана с сильными положительными эмоциями, 
+            которые тоже очень сильно отвлекают. Подойдёт тихая, спокойная, умеренно-ритмичная. 
+            Можно вообще попробовать включить плейлист с «белым шумом» или нейромузыкой.
+          </span>
+        </p>
+        <p class="card">
+          <span class="title-or-description title-decor">
+            Прогуляйтесь
+          </span>
+          <span class="description">
+            Или даже пробегитесь. Лучше найти парк или лес: один эксперимент 
+            <a class="active-link" href="#">показал</a>, что созерцание природы повышает концентрацию, 
+            в то время как после просмотра городских пейзажей она наоборот понижается. 
+            Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. 
+            Но и простая двадцатиминутная прогулка — тоже отличный вариант.
+          </span> 
+        </p>
+        <p class="card">
+          <span class="title-or-description title-decor">
+            Хорошо ешьте
+          </span>
+          <span class="description">
+            Мы — не ваша бабушка, но это правда важно. Выбирайте продукты, которые препятствуют резким скачкам сахара в крови. 
+            Например, с высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица, фасоль), 
+            коричневый рис, хлеб из цельнозерновой пшеницы.
+          </span>
+        </p>
+        <p class="card">
+          <span class="title-or-description title-decor">
+            Читайте
+          </span>
+          <span class="description">
+            Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы прочитать пост в соцсети, достаточно нескольких минут или даже секунд. 
+            А вот интересная книга способна затянуть и на несколько часов и круто тренирует направленное внимание.
+          </span>
+        </p>
+      </section>
+      <section class="section-image"> 
+        <div class="card__img">
+          <span class="card__title title-decor">
+            А можно в картинках?
+          </span>
+          <img
+            class="item__image"
+            src="images/sunset.png"
+            alt="Пейзаж с изображением восходящего солнца и чайками, парящими над отражающими лучи волнами."
+            loading="lazy"
+          />
+          <img
+            class="item__image"
+            src="images/ice-cream.png"
+            alt="Тарелка, полная мороженого с ягодами."
+            loading="lazzy"
+          /> 
+          <img
+            class="item__image"
+            src="images/tape.png"
+            alt="Кассета от кассетного магнитофона, висящая в облаках среди элементов управления плеером и пиксельных облаков."
+            loading="lazy"
+          />    
+          <img
+            class="item__image"
+            src="images/books.png"
+            alt="Не слишком высокая стопка различных книг. Вероятнее всего, любимых, а сверху не слишком большая чашечка кофе."
+            loading="lazy"
+          />  
+          <img
+            class="item__image"
+            src="images/street.png"
+            alt="Уютная улочка в стиле розового аниме, с вывесками в азиатском стиле."
+            loading="lazy"
+          />
+        </div>
+      </section>  
+    </main>
+    <footer class="footer">
+      <div class="pseudo-end pseudo-end-location__footer">
+      </div>
+      <h2 class="header__title">focus</h2>
+      <div class="pseudo-start pseudo-start-location__footer">
+      </div>
+    </footer>
   </body>
 </html>
