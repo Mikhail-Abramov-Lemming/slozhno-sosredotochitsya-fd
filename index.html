@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./fonts/fonts.css" rel="stylesheet" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/light.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/preloader.css" />
     <link rel="stylesheet" href="./styles/error.css" />
-    <link href="/dist/output.css" rel="stylesheet" />
     <title>Сложно сосредоточиться</title>
     <script src="./scripts/script.js"></script>
   </head>
@@ -60,7 +59,7 @@
         <div class="content-title">
           Почему сосредоточиться так сложно
         </div>
-        <p class="card">
+        <p class="card card-location__main-section">
           <span class="card__title  title-decor">
             Многозадачность
           </span>  
@@ -73,7 +72,7 @@
             Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
           </span>
         </p>
-        <p class="card">
+        <p class="card card-location__main-section">
           <span class="card__title  title-decor">
             Дофамин  
           </span>
@@ -91,8 +90,8 @@
         <div class="content-title">
           Что снижает концентрацию внимания?
         </div>  
-        <p class="card">
-          <span class="card__title  title-decor">
+        <p class="card card-location__section-next">
+          <span class="card__title-kastik  title-decor">
             Многозадачность 
           </span>
           <span class="description">
@@ -102,7 +101,7 @@
             и она может не выдержать, если не давать ей отдохнуть.
           </span>
         </p>
-        <p class="card">
+        <p class="card card-location__section-next">
           <span class="card__title  title-decor">
             Еда  
           </span>
@@ -113,7 +112,7 @@
             мы чувствуем усталость и сонливость. И хотим ещё больше быстрых углеводов.
           </span>
         </p>
-        <p class="card">
+        <p class="card card-location__section-next">
           <span class="card__title  title-decor">
             Гаджеты  
           </span>
@@ -127,13 +126,13 @@
         </p>
       </section>
       <section class="section-next-end">  
-          <div class="content-title">
-            Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)
-          </div> 
-          <div class="next-end-title title-decor">
-            5 простых (на самом деле не очень) советов
-          </div>
-        <p class="card">   
+        <div class="content-title">
+          Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)
+        </div> 
+        <div class="next-end-title title-decor">
+          5 простых (на самом деле не очень) советов
+        </div>
+        <p class="card card-location__section-next-end">   
           <span class="title-or-description title-decor">
             Представьте небо и облака
           </span>
@@ -145,7 +144,7 @@
             Это упражнение поможет вернуться в настоящий момент, а не волноваться о потенциальных проблемах из будущего.
           </span>
         </p>
-        <p class="card">
+        <p class="card card-location__section-next-end">
           <span class="title-or-description title-decor">
             Включите музыку
           </span>
@@ -155,7 +154,7 @@
             Можно вообще попробовать включить плейлист с «белым шумом» или нейромузыкой.
           </span>
         </p>
-        <p class="card">
+        <p class="card card-location__section-next-end">
           <span class="title-or-description title-decor">
             Прогуляйтесь
           </span>
@@ -167,7 +166,7 @@
             Но и простая двадцатиминутная прогулка — тоже отличный вариант.
           </span> 
         </p>
-        <p class="card">
+        <p class="card card-location__section-next-end">
           <span class="title-or-description title-decor">
             Хорошо ешьте
           </span>
@@ -177,7 +176,7 @@
             коричневый рис, хлеб из цельнозерновой пшеницы.
           </span>
         </p>
-        <p class="card">
+        <p class="card card-location__section-next-end">
           <span class="title-or-description title-decor">
             Читайте
           </span>
@@ -188,35 +187,33 @@
         </p>
       </section>
       <section class="section-image"> 
-        <div class="card__img">
-          <span class="card__title title-decor">
-            А можно в картинках?
-          </span>
+        <div class="Card-img card-location__section-image">
+          <span class="card__title title-decor">А можно в картинках?</span>
           <img
             class="item__image"
             src="images/sunset.png"
             alt="Пейзаж с изображением восходящего солнца и чайками, парящими над отражающими лучи волнами."
             loading="lazy"
-          />
+          />  
           <img
             class="item__image"
             src="images/ice-cream.png"
             alt="Тарелка, полная мороженого с ягодами."
             loading="lazzy"
           /> 
-          <img
+          <img 
             class="item__image"
             src="images/tape.png"
             alt="Кассета от кассетного магнитофона, висящая в облаках среди элементов управления плеером и пиксельных облаков."
             loading="lazy"
-          />    
+          />
           <img
             class="item__image"
             src="images/books.png"
             alt="Не слишком высокая стопка различных книг. Вероятнее всего, любимых, а сверху не слишком большая чашечка кофе."
             loading="lazy"
           />  
-          <img
+            <img
             class="item__image"
             src="images/street.png"
             alt="Уютная улочка в стиле розового аниме, с вывесками в азиатском стиле."
@@ -228,7 +225,7 @@
     <footer class="footer">
       <div class="pseudo-end pseudo-end-location__footer">
       </div>
-      <h2 class="header__title">focus</h2>
+      <h2 class="header__title header__title-footer">focus</h2>
       <div class="pseudo-start pseudo-start-location__footer">
       </div>
     </footer>
