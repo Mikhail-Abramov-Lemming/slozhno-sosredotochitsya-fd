@@ -216,7 +216,6 @@ header {
 .content_parameters {
   block-size: 73.31%;
   padding-block-start: 10.6vw;
-  background-color: var(--color-page);
 }
 
 .main__section {
@@ -388,7 +387,6 @@ header {
   padding-block-start: 6.7vh;
   padding-block-end: 0vh;
   padding-inline: 3vw;
-  background-color: var(--color-page);
 }
 
 .pseudo-end_parameters-footer {
