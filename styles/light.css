@@ -5,12 +5,62 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
+  body {
+    --highlighted-dark: #FF8DCB;
+    --teme-menu-toggler: #353430;
+    --border-rgba: rgba(50, 61, 102, 0.6);
+    --font-title-dark: #FFC2E6;
+    --font-highlighted-dark: #353430;
+    --color-page: #FFF1F7;
+    --font-dark: #353430;
+    --background-cover: url("../images/cover-image-light.png")
+  }
+
+  .header__light::before {
+    color: transparent;
+  }
+
+  .pseudo {
+    box-shadow: none;
+  }
+
+  .header__theme-menu-button_type_light {
+    border: 1px solid var(--teme-menu-toggler);
+    pointer-events: none;
+  }
+ /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 }
 
 .theme-light .page {
+  body {
+  --highlighted-dark: #FF8DCB;
+  --teme-menu-toggler: #353430;
+  --border-rgba: rgba(50, 61, 102, 0.6);
+  --font-title-dark: #FFC2E6;
+  --font-highlighted-dark: #353430;
+  --color-page: #FFF1F7;
+  --font-dark: #353430;
+  --background-cover: url("../images/cover-image-light.png")
+}
+
+.header__light::before {
+  color: transparent;
+}
+
+.pseudo {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.header__theme-menu-button_type_light {
+  border: 1px solid var(--teme-menu-toggler);
+  pointer-events: none;
+}
+
+
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
+

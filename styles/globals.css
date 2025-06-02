@@ -1,14 +1,16 @@
 /* Глобальные стили для проекта, их можно дополнять и менять по желанию */
 
-*,
+/** {
+  outline: 1px solid red;
+}*/
+,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
 html {
-
-
+  margin: 0 auto;
 }
 
 body {
@@ -26,8 +28,8 @@ h2 {
   font-family: "IBM Plex Mono", sans-serif;
   font-weight: 700;
   font-size: 18px;
-},
-h3,
+}
+
 h4,
 h5,
 h6,

@@ -4,8 +4,48 @@
 */
 
 :root {
-  --highlighted-dark: #FF0070;
-  --font-title-dark: #DB00FF;
-  --font-highlighted-dark: #000028;
-  --font-dark: #F1B2CE;
+  color-scheme: dark light;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --highlighted-dark: #ff0070;
+    --teme-menu-toggler: #ff0070;
+    --border-rgba: rgba(255, 0, 112, 0.6);
+    --font-title-dark: #db00ff;
+    --font-highlighted-dark: #000028;
+    --color-page: #000028;
+    --font-dark: #f1b2ce;
+    --background-cover: url("../images/cover-image-dark.png")
+  }
+
+  .header__theme-menu-button_active {
+    border: 1px solid var(--teme-menu-toggler);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    --highlighted-dark: #ff8dcb;
+    --teme-menu-toggler: #353430;
+    --border-rgba: rgba(50, 61, 102, 0.4);
+    --font-title-dark: #ffc2e6;
+    --font-highlighted-dark: #353430;
+    --color-page: #fff1f7;
+    --font-dark: #353430;
+    --background-cover: url("../images/cover-image-light.png")
+  }
+
+  .header__light::before {
+    color: transparent;
+  }
+
+  .pseudo {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .header__theme-menu-button_active {
+    border: 1px solid var(--teme-menu-toggler);
+  }
 }
