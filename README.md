@@ -1,5 +1,5 @@
 ># Завершающая стадия проекта.
 >Гриды становятся понятнее. Понятнее стали ситуации, где их применять не стоит. Адаптивная верстка оказалась довольно трудоёмкой и затратной по времени. Но если посмотреть назад, раньше я мог только мечтать о таком.
-[Сссылка на мой репозиторий](https://github.com/Mikhail-Abramov-Lemming/slozhno-sosredotochitsya-fd-main.git)
+[ссылка на мой репозиторий](https://github.com/Mikhail-Abramov-Lemming/slozhno-sosredotochitsya-fd-main.git)
 ![Фокус на память](https://i.pinimg.com/originals/25/66/f1/2566f1ec3110e5909173420d087894ec.jpg)
 
